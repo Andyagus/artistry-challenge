@@ -1,0 +1,6 @@
+<%= @artist.name %>
+<%= @artist.age %>
+<%= @artist.title %>
+<% @artist.instruments.map do |instrument| %> 
+	<%= instrument.name %>
+<% end %>
